@@ -35,14 +35,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-//    [[AGMedallionView appearance] setBorderColor:[UIColor yellowColor]];
-//    [[AGMedallionView appearance] setBorderWidth:4.f];
-//    [[AGMedallionView appearance] setShadowColor:[UIColor redColor]];
-//    [[AGMedallionView appearance] setShadowOffset:CGSizeMake(0, 0)];
-//    [[AGMedallionView appearance] setShadowBlur:2.f];
+    [[AGMedallionView appearance] setBorderColor:[UIColor yellowColor]];
+    [[AGMedallionView appearance] setBorderWidth:4.f];
+    [[AGMedallionView appearance] setShadowColor:[UIColor redColor]];
+    [[AGMedallionView appearance] setShadowOffset:CGSizeMake(0, 0)];
+    [[AGMedallionView appearance] setShadowBlur:2.f];
     
     self.medallionView.image = [UIImage imageNamed:@"sample"];
 //    self.medallionView.userInteractionEnabled = NO;
+    [self.medallionView setAddAlphaGradientMask:NO];
     
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(medallionDidTap:)];
     [self.medallionView addGestureRecognizer:tapGestureRecognizer];

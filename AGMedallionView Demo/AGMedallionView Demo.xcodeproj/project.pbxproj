@@ -156,6 +156,11 @@
 				CLASSPREFIX = AG;
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Artur Grigor";
+				TargetAttributes = {
+					FE8B044514E83146007F6625 = {
+						DevelopmentTeam = Q4AF5545AE;
+					};
+				};
 			};
 			buildConfigurationList = FE8B044014E83145007F6625 /* Build configuration list for PBXProject "AGMedallionView Demo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -274,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AGMedallionView Demo/AGMedallionView Demo-Prefix.pch";
@@ -289,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AGMedallionView Demo/AGMedallionView Demo-Prefix.pch";

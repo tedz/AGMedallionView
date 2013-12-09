@@ -14,6 +14,7 @@
 @interface AGMedallionView : UIView
 
 @property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong) UIImage *highlightedImage;
 
 @property (nonatomic, strong) UIColor *borderColor UI_APPEARANCE_SELECTOR;
 @property (nonatomic, assign) CGFloat borderWidth UI_APPEARANCE_SELECTOR;
@@ -21,4 +22,13 @@
 @property (nonatomic, assign) CGSize shadowOffset UI_APPEARANCE_SELECTOR;
 @property (nonatomic, assign) CGFloat shadowBlur UI_APPEARANCE_SELECTOR;
 
+@property (nonatomic) BOOL highlighted;
+
+@property (nonatomic) BOOL addAlphaGradientMask;
+
+@property (nonatomic, strong) UIColor *progressColor;
+@property (nonatomic) CGFloat progress;
+
+
 @end
+
